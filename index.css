@@ -4,8 +4,10 @@
   border-radius: 500px
 }
 .my-photo:hover {
-  height:400px;
-  width:300px;
+  height:600px;
+  width:600px;
+  list-style-type: square;
+  top: 50px
 }
 #my-name {
   color:orange;
