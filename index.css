@@ -1,0 +1,52 @@
+.my-photo {display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 500px
+}
+.my-photo:hover {
+  height:400px;
+  width:300px;
+}
+#my-name {
+  color:orange;
+  text-align: center;
+}
+#story {
+  color:teal;
+  text-align: center;
+}
+.my-list-item {
+  color:orange;
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+}
+.my-list-item:hover {
+  color: teal;
+}
+#my-aspiration {
+  color:teal;
+  text-align: center;
+}
+#button{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: orange;
+ text-decoration: inherit;
+ color: white;
+ font-weight: bolder;
+ padding-left: 50px 50px 50px;
+ opacity: 0.5;
+ border: 2px solid teal;
+}
+#button:hover {
+  background-color: green;
+  border: 2px solid teal;
+  font-size: 40px
+}
+
+h1::first-letter {
+  font-size: 200%;
+  color: teal;
+}
